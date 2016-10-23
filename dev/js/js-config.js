@@ -1,0 +1,1 @@
+namespace.config = {};  namespace.config.colours = {      primary: '#fc0'  };  namespace.config.sizes = {      small: '100px',      medium: '500px',      large: '1000px'  };  namespace.config.zIndex = {      model : 100,      dropdown : 50,      header : 10  };

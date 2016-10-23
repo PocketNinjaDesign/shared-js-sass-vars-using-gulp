@@ -1,0 +1,16 @@
+namespace.config = {};
+
+<% _.each(defaults, function(monkey, key) { %>
+  namespace.config.<%= key %> = {
+  <% i = 1 %>
+  <% _.each(monkey, function(value, key) { %>
+    <% comma = (Object.keys(monkey).length === i) ? '': ',' %>
+    <% if(typeof value === 'string') {%>
+      <%= key %>: '<%= value %>'<%= comma %>
+    <%} else { %>
+      <%= key %> : <%= value %><%= comma %>
+    <% } %>
+    <% i++ %>
+  <% }); %>
+  };
+<% }) %>

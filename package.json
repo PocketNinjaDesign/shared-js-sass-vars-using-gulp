@@ -1,0 +1,31 @@
+{
+  "name": "shared-js-sass-vars-using-gulp",
+  "version": "1.0.0",
+  "description": "how to share vars between js and sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PocketNinjaCoUk/shared-js-sass-vars-using-gulp.git"
+  },
+  "keywords": [
+    "shared",
+    "vars",
+    "scripts",
+    "sass"
+  ],
+  "author": "pocketninja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PocketNinjaCoUk/shared-js-sass-vars-using-gulp/issues"
+  },
+  "homepage": "https://github.com/PocketNinjaCoUk/shared-js-sass-vars-using-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-remove-empty-lines": "0.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-template": "^4.0.0"
+  }
+}

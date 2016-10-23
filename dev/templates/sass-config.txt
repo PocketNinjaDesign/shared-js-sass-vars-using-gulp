@@ -1,0 +1,6 @@
+<% _.each(defaults, function(category, key) { %>
+  // Var <%= key %>
+  <% _.each(category, function(value, key) { %>
+    $<%= key %>: <%= value %>;
+  <% }) %>
+<% }) %>
